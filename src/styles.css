@@ -1,0 +1,48 @@
+.App {
+  font-family: sans-serif;
+}
+body {
+  background: #aa8b56;
+  color: rgb(44, 43, 43);
+}
+.date-input,
+.lucky-number {
+  width: 100%;
+  max-width: 85%;
+  padding: 0.4rem 1rem;
+  border: none;
+  font-size: 1.2rem;
+  border-radius: 0.2rem;
+}
+.container {
+  width: 320px;
+  margin: 0 auto;
+}
+.app-heading {
+  margin-top: 5rem;
+  text-align: center;
+}
+.title {
+  font-size: 1.2rem;
+  color: #000;
+  font-weight: 500;
+}
+.action-btn {
+  padding: 0.4rem 1rem;
+  font-family: inherit;
+  font-size: 1.2rem;
+  background-color: #4e6c50;
+  color: white;
+  border: none;
+  border-radius: 0.2rem;
+  margin-top: 2rem;
+}
+.error {
+  color: #e14d2a;
+  font-size: 1.2rem;
+}
+.result {
+  color: white;
+  font-size: 1.2rem;
+  margin: 1rem;
+}
