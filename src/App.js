@@ -39,7 +39,7 @@ export default function App() {
           type="date"
           className="date-input"
           value={birthDate}
-          onChange={(e) => setBirthDate(e.target.value)}
+          onChange={(e) =>{ setResult(""); setBirthDate(e.target.value)}}
         />
         <p className="title">Lucky Number</p>
         <input
@@ -47,7 +47,7 @@ export default function App() {
           className="lucky-number"
           placeholder="Enter a number"
           value={luckyNumber}
-          onChange={(e) => setLuckyNumber(e.target.value)}
+          onChange={(e) => {setResult(""); setLuckyNumber(e.target.value)}}
         />
         <button className="action-btn" onClick={checkLuckyNumber}>
           Check Number
